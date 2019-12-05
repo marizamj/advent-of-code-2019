@@ -1,9 +1,7 @@
-package day_01
-
 import scala.io.Source
 
-object Solution extends App {
-  val input = Source.fromResource("day_01_input").getLines.map(_.toInt).toList
+object Day01 extends App {
+  val input = Source.fromResource("Day01Input").getLines.map(_.toInt).toList
 
   def calcFuelRequired(n: Int): Int = n / 3 - 2
 
@@ -27,9 +25,13 @@ object Solution extends App {
     }
   }
 
-  val answer_1 = calcFuelRequiredTotal_1(input)
-  val answer_2 = calcFuelRequiredTotal_2(input)
+  def run: Unit = {
+    val answer_1 = calcFuelRequiredTotal_1(input)
+    val answer_2 = calcFuelRequiredTotal_2(input)
 
-  println(answer_1)
-  println(answer_2)
+    println(answer_1)
+    println(answer_2)
+  }
+
+  run
 }

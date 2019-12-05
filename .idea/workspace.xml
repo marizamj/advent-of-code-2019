@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e4f07cdf-e734-4da6-9cf8-f4977e0d7201" name="Default Changelist" comment="" />
+    <list default="true" id="e4f07cdf-e734-4da6-9cf8-f4977e0d7201" name="Default Changelist" comment="day 02">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Day02Input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Day02.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/scala/Day02Test.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/day_01_input" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Day01Input" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/day_01/Solution.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Day01.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/day_01/SolutionTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/Day01Test.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/day_01/Solution$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/day_01/Solution$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/day_01/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/day_01_input" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/day_01/SolutionTest.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,10 +28,21 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Scala Object" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1URHuo5GclX2DMf13DV7DYOlk7D" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -28,20 +52,50 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="ScalaTest.SolutionTest">
-    <configuration name="solution" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="day_01.Solution" />
+  <component name="RunManager" selected="Application.Day01">
+    <configuration name="Day01" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Day01" />
+      <module name="advent-of-code-2019" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Day02" />
       <module name="advent-of-code-2019" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day_01.*" />
+          <option name="PATTERN" value="Day02" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day01Test" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="advent-of-code-2019" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="testKind" value="Class" />
+      <option name="envs">
+        <map />
+      </option>
+      <option name="javaOptions" value="" />
+      <option name="jrePath" />
+      <option name="searchTest" value="Across module dependencies" />
+      <option name="showProgressMessages" value="true" />
+      <option name="testArgs" value="" />
+      <option name="testClassPath" value="Day01Test" />
+      <option name="useSbt" value="false" />
+      <option name="useUiWithSbt" value="false" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -58,7 +112,7 @@
       <option name="searchTest" value="Across module dependencies" />
       <option name="showProgressMessages" value="true" />
       <option name="testArgs" value="" />
-      <option name="testClassPath" value="day_01.SolutionTest" />
+      <option name="testClassPath" value="day_02.SolutionTest" />
       <option name="useSbt" value="false" />
       <option name="useUiWithSbt" value="false" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
@@ -66,7 +120,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest.calcFuelRequiredForFuel" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+    <configuration name="SolutionTest.findPair" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
       <module name="advent-of-code-2019" />
       <option name="allowRunningInParallel" value="false" />
       <option name="testKind" value="Class" />
@@ -78,50 +132,8 @@
       <option name="searchTest" value="Across module dependencies" />
       <option name="showProgressMessages" value="true" />
       <option name="testArgs" value="" />
-      <option name="testClassPath" value="day_01.SolutionTest" />
-      <option name="testName" value="calcFuelRequiredForFuel" />
-      <option name="useSbt" value="false" />
-      <option name="useUiWithSbt" value="false" />
-      <option name="workingDirectory" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SolutionTest.calcFuelRequiredForOne" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
-      <module name="advent-of-code-2019" />
-      <option name="allowRunningInParallel" value="false" />
-      <option name="testKind" value="Class" />
-      <option name="envs">
-        <map />
-      </option>
-      <option name="javaOptions" value="" />
-      <option name="jrePath" />
-      <option name="searchTest" value="Across module dependencies" />
-      <option name="showProgressMessages" value="true" />
-      <option name="testArgs" value="" />
-      <option name="testClassPath" value="day_01.SolutionTest" />
-      <option name="testName" value="calcFuelRequiredForOne" />
-      <option name="useSbt" value="false" />
-      <option name="useUiWithSbt" value="false" />
-      <option name="workingDirectory" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SolutionTest.calcFuelRequiredTotal_2" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
-      <module name="advent-of-code-2019" />
-      <option name="allowRunningInParallel" value="false" />
-      <option name="testKind" value="Class" />
-      <option name="envs">
-        <map />
-      </option>
-      <option name="javaOptions" value="" />
-      <option name="jrePath" />
-      <option name="searchTest" value="Across module dependencies" />
-      <option name="showProgressMessages" value="true" />
-      <option name="testArgs" value="" />
-      <option name="testClassPath" value="day_01.SolutionTest" />
-      <option name="testName" value="calcFuelRequiredTotal_2" />
+      <option name="testClassPath" value="day_02.SolutionTest" />
+      <option name="testName" value="findPair" />
       <option name="useSbt" value="false" />
       <option name="useUiWithSbt" value="false" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
@@ -131,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Day01" />
+        <item itemvalue="ScalaTest.Day01Test" />
         <item itemvalue="ScalaTest.SolutionTest" />
-        <item itemvalue="Application.solution" />
-        <item itemvalue="ScalaTest.SolutionTest.calcFuelRequiredTotal_2" />
-        <item itemvalue="ScalaTest.SolutionTest.calcFuelRequiredForFuel" />
-        <item itemvalue="ScalaTest.SolutionTest.calcFuelRequiredForOne" />
+        <item itemvalue="ScalaTest.SolutionTest.findPair" />
+        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -202,30 +214,70 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="day 02" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 02" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="580" y="335" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1575312782866">
+    <state x="578" y="287" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1575588398572">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="580" y="335" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1575312782866" />
-    <state width="1638" height="287" key="GridCell.Tab.0.bottom" timestamp="1575378616439">
+    <state x="578" y="287" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1575588398572" />
+    <state x="580" y="335" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1575409981516">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="287" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1575378616439" />
-    <state width="1638" height="287" key="GridCell.Tab.0.center" timestamp="1575378616436">
+    <state x="580" y="335" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1575409981516" />
+    <state x="614" y="391" width="451" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1575588687866">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="287" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1575378616436" />
-    <state width="1638" height="287" key="GridCell.Tab.0.left" timestamp="1575378616434">
+    <state x="614" y="391" width="451" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1680.1050@0.0.1680.1050" timestamp="1575588687866" />
+    <state x="494" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1575588637919">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="287" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1575378616434" />
-    <state width="1638" height="287" key="GridCell.Tab.0.right" timestamp="1575378616438">
+    <state x="494" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1575588637919" />
+    <state x="454" y="124" key="CommitChangelistDialog2" timestamp="1575589020677">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="287" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1575378616438" />
-    <state x="505" y="176" width="670" height="676" key="search.everywhere.popup" timestamp="1575371889769">
+    <state x="454" y="124" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1575589020677" />
+    <state width="1638" height="287" key="GridCell.Tab.0.bottom" timestamp="1575588907965">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="505" y="176" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1575371889769" />
+    <state width="1638" height="287" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1575588907965" />
+    <state width="1638" height="287" key="GridCell.Tab.0.center" timestamp="1575588907964">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="287" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1575588907964" />
+    <state width="1638" height="287" key="GridCell.Tab.0.left" timestamp="1575588907964">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="287" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1575588907964" />
+    <state width="1638" height="287" key="GridCell.Tab.0.right" timestamp="1575588907964">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="287" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1575588907964" />
+    <state width="1638" height="354" key="GridCell.Tab.1.bottom" timestamp="1575584978732">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="354" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1575584978732" />
+    <state width="1638" height="354" key="GridCell.Tab.1.center" timestamp="1575584978730">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="354" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1575584978730" />
+    <state width="1638" height="354" key="GridCell.Tab.1.left" timestamp="1575584978730">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="354" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1575584978730" />
+    <state width="1638" height="354" key="GridCell.Tab.1.right" timestamp="1575584978731">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="354" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1575584978731" />
+    <state x="519" y="357" key="com.intellij.ide.util.TipDialog" timestamp="1575409952816">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="519" y="357" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1575409952816" />
+    <state x="505" y="176" width="670" height="676" key="search.everywhere.popup" timestamp="1575582463500">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="505" y="176" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1575582463500" />
   </component>
 </project>
