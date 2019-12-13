@@ -1,3 +1,4 @@
+import scala.annotation.tailrec
 import scala.io.Source
 
 object Day03 extends App {
@@ -5,6 +6,7 @@ object Day03 extends App {
 
   def getPath(line: String): List[(String, String)] = line.split(",").map(_.splitAt(1)).toList
 
+  @tailrec
   def getAllCoordinates(path: List[(String, String)],
                         current: (Int, Int, Int) = (0, 0, 0),
                         coordinates: Map[String, Int] = Map.empty): Map[String, Int] = {
@@ -14,9 +16,7 @@ object Day03 extends App {
     val direction = path.head._1
     val distance = path.head._2.toInt
 
-    var newX = current._1
-    var newY = current._2
-    var newSteps = current._3
+    var (newX, newY, newSteps) = current
     var newCoordinates: Map[String, Int] = coordinates
 
     for (_ <- 1 to distance) {
@@ -32,11 +32,11 @@ object Day03 extends App {
   }
 
   def findIntersections(coordinates: List[Map[String, Int]]): List[String] = {
-    coordinates(0).keySet.toList.filter(c => coordinates(1).contains(c))
+    coordinates.head.keySet.toList.filter(c => coordinates(1).contains(c))
   }
 
   def findClosestDistance(input: List[String]): Int = {
-    val paths = input.map(getPath(_))
+    val paths = input.map(getPath)
     val coordinates = paths.map(getAllCoordinates(_))
     val intersections = findIntersections(coordinates)
 
@@ -44,19 +44,19 @@ object Day03 extends App {
   }
 
   def findFastestDistance(input: List[String]): Int = {
-    val paths = input.map(getPath(_))
+    val paths = input.map(getPath)
     val coordinates = paths.map(getAllCoordinates(_))
     val intersections = findIntersections(coordinates)
 
-    intersections.map(i => coordinates(0)(i) + coordinates(1)(i)).min
+    intersections.map(i => coordinates.head(i) + coordinates(1)(i)).min
   }
 
   def run: Unit = {
-    val answer_1 = findClosestDistance(input)
-    val answer_2 = findFastestDistance(input)
+    val answer1 = findClosestDistance(input)
+    val answer2 = findFastestDistance(input)
 
-    println(answer_1)
-    println(answer_2)
+    println(answer1)
+    println(answer2)
   }
 
   run

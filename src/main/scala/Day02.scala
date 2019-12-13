@@ -2,7 +2,7 @@ import scala.io.Source
 
 object Day02 extends App {
   val input = Source.fromResource("Day02Input").mkString.split(",").map(_.toInt).toList
-  val input_2 = input.updated(1, 12).updated(2, 2)
+  val input2 = input.updated(1, 12).updated(2, 2)
 
   @scala.annotation.tailrec
   def runIntcode(input: List[Int], pointer: Int = 0): List[Int] = {
@@ -47,11 +47,11 @@ object Day02 extends App {
   }
 
   def run: Unit = {
-    val answer_1 = runIntcode(input_2)
-    val answer_2 = findPair(input, 19690720)
+    val answer1 = runIntcode(input2)
+    val answer2 = findPair(input, 19690720)
 
-    println(answer_1)
-    println(answer_2)
+    println(answer1)
+    println(answer2)
   }
 
   run

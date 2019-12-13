@@ -1,13 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e4f07cdf-e734-4da6-9cf8-f4977e0d7201" name="Default Changelist" comment="day 02">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Day03Input" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/Day03.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/scala/Day03Test.scala" afterDir="false" />
+    <list default="true" id="e4f07cdf-e734-4da6-9cf8-f4977e0d7201" name="Default Changelist" comment="very ugly commit">
+      <change afterPath="$PROJECT_DIR$/.idea/scala_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Day05Input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Day06Input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Day07Input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Day08Input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Day09Input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/test/Day09TestInput1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Day04.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Day05.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Day06.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Day07.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Day08.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Day09.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Day10.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Intcode/Computer.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Intcode/Instruction.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Intcode/State.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/scala/Day04Test.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/scala/Day05Test.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/scala/Day06Test.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/scala/Day07Test.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/scala/Day08Test.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/scala/Intcode.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$3312316d84f67ff25fbc$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$3312316d84f67ff25fbc.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$3312316d84f67ff25fbc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/_global/_global/csrLogger/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/_global/_global/csrLogger/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/_global/update/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/_global/update/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/copyResources/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/copyResources/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/Day01.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Day01.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/Day02.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Day02.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/Day03.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Day03.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/.history" beforeDir="false" afterPath="$PROJECT_DIR$/target/.history" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/Day01$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/Day01$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/Day01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/Day01.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/Day02$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/Day02$.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/Day02.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/Day02.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/Day03$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/Day03$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/Day03$delayedInit$body.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/Day03$delayedInit$body.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/Day03.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/Day03.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/_global/checkBuildSources/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/_global/checkBuildSources/_global/streams/out" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,16 +82,30 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/scala" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.25977013" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="xpath.settings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/test" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Day03">
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="qqq" />
+      <command value="1 ==0" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Day01">
     <configuration name="Day01" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Day01" />
       <module name="advent-of-code-2019" />
@@ -61,14 +113,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day03" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Day03" />
+    <configuration name="Day06" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Day06" />
       <module name="advent-of-code-2019" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day03Test.bla" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+    <configuration name="Day07" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Day07" />
+      <module name="advent-of-code-2019" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntcodeTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
       <module name="advent-of-code-2019" />
       <option name="allowRunningInParallel" value="false" />
       <option name="testKind" value="Class" />
@@ -80,8 +139,7 @@
       <option name="searchTest" value="Across module dependencies" />
       <option name="showProgressMessages" value="true" />
       <option name="testArgs" value="" />
-      <option name="testClassPath" value="Day03Test" />
-      <option name="testName" value="bla" />
+      <option name="testClassPath" value="IntcodeTest" />
       <option name="useSbt" value="false" />
       <option name="useUiWithSbt" value="false" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
@@ -89,7 +147,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day03Test.findDistance" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+    <configuration name="ScalaTests in 'scala'" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
       <module name="advent-of-code-2019" />
       <option name="allowRunningInParallel" value="false" />
       <option name="testKind" value="Class" />
@@ -101,29 +159,7 @@
       <option name="searchTest" value="Across module dependencies" />
       <option name="showProgressMessages" value="true" />
       <option name="testArgs" value="" />
-      <option name="testClassPath" value="Day03Test" />
-      <option name="testName" value="findDistance" />
-      <option name="useSbt" value="false" />
-      <option name="useUiWithSbt" value="false" />
-      <option name="workingDirectory" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Day03Test.findFastestDistance" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
-      <module name="advent-of-code-2019" />
-      <option name="allowRunningInParallel" value="false" />
-      <option name="testKind" value="Class" />
-      <option name="envs">
-        <map />
-      </option>
-      <option name="javaOptions" value="" />
-      <option name="jrePath" />
-      <option name="searchTest" value="Across module dependencies" />
-      <option name="showProgressMessages" value="true" />
-      <option name="testArgs" value="" />
-      <option name="testClassPath" value="Day03Test" />
-      <option name="testName" value="findFastestDistance" />
+      <option name="testClassPath" value="" />
       <option name="useSbt" value="false" />
       <option name="useUiWithSbt" value="false" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
@@ -133,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Day03" />
-        <item itemvalue="ScalaTest.Day03Test.findFastestDistance" />
-        <item itemvalue="ScalaTest.Day03Test.findDistance" />
-        <item itemvalue="ScalaTest.Day03Test.bla" />
         <item itemvalue="Application.Day01" />
+        <item itemvalue="Application.Day06" />
+        <item itemvalue="ScalaTest.IntcodeTest" />
+        <item itemvalue="Application.Day07" />
+        <item itemvalue="ScalaTest.ScalaTests in 'scala'" />
       </list>
     </recent_temporary>
   </component>
@@ -179,6 +215,9 @@
       </map>
     </option>
   </component>
+  <component name="ScalaProjectSettings">
+    <option name="ignorePerformance" value="true" />
+  </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
       <list>
@@ -214,65 +253,94 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="day 02" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 02" />
+    <MESSAGE value="very ugly commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="very ugly commit" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="578" y="287" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1575588398572">
+    <state x="578" y="287" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1576247170310">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="578" y="287" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1575588398572" />
-    <state x="580" y="335" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1575589250336">
+    <state x="578" y="287" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1576247170310" />
+    <state x="580" y="335" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1576237386301">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="580" y="335" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1575589250336" />
-    <state x="614" y="391" width="451" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1575588687866">
+    <state x="580" y="335" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1576237386301" />
+    <state x="614" y="391" width="451" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1576248777110">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="614" y="391" width="451" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1680.1050@0.0.1680.1050" timestamp="1575588687866" />
-    <state x="494" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1575588637919">
+    <state x="614" y="391" width="451" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1680.1050@0.0.1680.1050" timestamp="1576248777110" />
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1576248023971">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="494" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1575588637919" />
-    <state x="454" y="124" key="CommitChangelistDialog2" timestamp="1575589164301">
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1576248023971" />
+    <state x="578" y="279" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1576252952654">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="454" y="124" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1575589164301" />
-    <state width="1638" height="287" key="GridCell.Tab.0.bottom" timestamp="1575639978402">
+    <state x="578" y="279" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1576252952654" />
+    <state x="588" y="369" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1576252906799">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="287" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1575639978402" />
-    <state width="1638" height="287" key="GridCell.Tab.0.center" timestamp="1575639978402">
+    <state x="588" y="369" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1680.1050@0.0.1680.1050" timestamp="1576252906799" />
+    <state x="454" y="124" key="CommitChangelistDialog2" timestamp="1576253034836">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="287" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1575639978402" />
-    <state width="1638" height="287" key="GridCell.Tab.0.left" timestamp="1575639978401">
+    <state x="454" y="124" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1576253034836" />
+    <state x="100" y="100" width="1480" height="850" key="DiffContextDialog" timestamp="1576249121206">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="287" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1575639978401" />
-    <state width="1638" height="287" key="GridCell.Tab.0.right" timestamp="1575639978402">
+    <state x="100" y="100" width="1480" height="850" key="DiffContextDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1576249121206" />
+    <state width="1638" height="297" key="GridCell.Tab.0.bottom" timestamp="1576253035027">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="287" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1575639978402" />
-    <state width="1638" height="354" key="GridCell.Tab.1.bottom" timestamp="1575623774040">
+    <state width="1638" height="297" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1576253035027" />
+    <state width="1638" height="297" key="GridCell.Tab.0.center" timestamp="1576253035026">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="354" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1575623774040" />
-    <state width="1638" height="354" key="GridCell.Tab.1.center" timestamp="1575623774040">
+    <state width="1638" height="297" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1576253035026" />
+    <state width="1638" height="297" key="GridCell.Tab.0.left" timestamp="1576253035025">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="354" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1575623774040" />
-    <state width="1638" height="354" key="GridCell.Tab.1.left" timestamp="1575623774040">
+    <state width="1638" height="297" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1576253035025" />
+    <state width="1638" height="297" key="GridCell.Tab.0.right" timestamp="1576253035026">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="354" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1575623774040" />
-    <state width="1638" height="354" key="GridCell.Tab.1.right" timestamp="1575623774040">
+    <state width="1638" height="297" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1576253035026" />
+    <state width="1638" height="361" key="GridCell.Tab.1.bottom" timestamp="1576248945713">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="354" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1575623774040" />
-    <state x="519" y="357" key="com.intellij.ide.util.TipDialog" timestamp="1575409952816">
+    <state width="1638" height="361" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1576248945713" />
+    <state width="1638" height="361" key="GridCell.Tab.1.center" timestamp="1576248945713">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="519" y="357" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1575409952816" />
+    <state width="1638" height="361" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1576248945713" />
+    <state width="1638" height="361" key="GridCell.Tab.1.left" timestamp="1576248945712">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="361" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1576248945712" />
+    <state width="1638" height="361" key="GridCell.Tab.1.right" timestamp="1576248945713">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="361" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1576248945713" />
+    <state x="349" y="164" key="SettingsEditor" timestamp="1576251668566">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="349" y="164" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1576251668566" />
+    <state width="840" height="525" key="XDebugger.FullValuePopup" timestamp="1576159450214">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="840" height="525" key="XDebugger.FullValuePopup/0.0.1680.1050@0.0.1680.1050" timestamp="1576159450214" />
+    <state x="635" y="310" key="chooseDestDirectoryDialog" timestamp="1576248087084">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="635" y="310" key="chooseDestDirectoryDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1576248087084" />
+    <state x="519" y="357" key="com.intellij.ide.util.TipDialog" timestamp="1576251408904">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="519" y="357" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1576251408904" />
+    <state x="505" y="242" width="670" height="675" key="run.anything.popup" timestamp="1576249075594">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="505" y="242" width="670" height="675" key="run.anything.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1576249075594" />
     <state x="505" y="176" width="670" height="676" key="search.everywhere.popup" timestamp="1575582463500">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>

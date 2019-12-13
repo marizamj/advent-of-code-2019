@@ -11,26 +11,26 @@ object Day01 extends App {
     else required + calcFuelRequiredForFuel(required)
   }
 
-  def calcFuelRequiredTotal_1(input: List[Int]): Int = {
+  def calcFuelRequiredTotal1(input: List[Int]): Int = {
     if (input.isEmpty) 0
-    else calcFuelRequired(input.head) + calcFuelRequiredTotal_1(input.tail)
+    else calcFuelRequired(input.head) + calcFuelRequiredTotal1(input.tail)
   }
 
-  def calcFuelRequiredTotal_2(input: List[Int]): Int = {
+  def calcFuelRequiredTotal2(input: List[Int]): Int = {
     if (input.isEmpty) 0
     else {
       val fuel = calcFuelRequired(input.head)
       val fuelForFuel = calcFuelRequiredForFuel(fuel)
-      fuel + fuelForFuel + calcFuelRequiredTotal_2(input.tail)
+      fuel + fuelForFuel + calcFuelRequiredTotal2(input.tail)
     }
   }
 
   def run: Unit = {
-    val answer_1 = calcFuelRequiredTotal_1(input)
-    val answer_2 = calcFuelRequiredTotal_2(input)
+    val answer1 = calcFuelRequiredTotal1(input)
+    val answer2 = calcFuelRequiredTotal2(input)
 
-    println(answer_1)
-    println(answer_2)
+    println(answer1)
+    println(answer2)
   }
 
   run
