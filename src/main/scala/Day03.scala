@@ -13,17 +13,19 @@ object Day03 extends App {
 
     if (path.isEmpty) return coordinates
 
-    val direction = path.head._1
-    val distance = path.head._2.toInt
+    val (direction, distance) = path.head
 
     var (newX, newY, newSteps) = current
     var newCoordinates: Map[String, Int] = coordinates
 
-    for (_ <- 1 to distance) {
-      if (direction == "R") newX += 1
-      if (direction == "D") newY -= 1
-      if (direction == "L") newX -= 1
-      if (direction == "U") newY += 1
+    for (_ <- 1 to distance.toInt) {
+      direction match {
+        case "R" => newX += 1
+        case "D" => newY -= 1
+        case "L" => newX -= 1
+        case "U" => newY += 1
+      }
+
       newSteps += 1
       newCoordinates = newCoordinates.updated(s"$newX,$newY", newSteps)
     }
@@ -31,16 +33,15 @@ object Day03 extends App {
     getAllCoordinates(path.tail, (newX, newY, newSteps), newCoordinates)
   }
 
-  def findIntersections(coordinates: List[Map[String, Int]]): List[String] = {
+  def findIntersections(coordinates: List[Map[String, Int]]): List[String] =
     coordinates.head.keySet.toList.filter(c => coordinates(1).contains(c))
-  }
 
   def findClosestDistance(input: List[String]): Int = {
     val paths = input.map(getPath)
     val coordinates = paths.map(getAllCoordinates(_))
     val intersections = findIntersections(coordinates)
 
-    intersections.map(i => i.split(",").map(_.toInt.abs).sum).min
+    intersections.map(i => i.split(',').map(_.toInt.abs).sum).min
   }
 
   def findFastestDistance(input: List[String]): Int = {
