@@ -1,7 +1,7 @@
 import scala.annotation.tailrec
 import scala.io.Source
 
-object Day03 extends App {
+object Day03 {
   val input = Source.fromResource("Day03Input").getLines.toList
 
   def getPath(line: String): List[(String, String)] = line.split(",").map(_.splitAt(1)).toList
@@ -52,13 +52,11 @@ object Day03 extends App {
     intersections.map(i => coordinates.head(i) + coordinates(1)(i)).min
   }
 
-  def run: Unit = {
+  def main(args: Array[String]): Unit = {
     val answer1 = findClosestDistance(input)
     val answer2 = findFastestDistance(input)
 
     println(answer1)
     println(answer2)
   }
-
-  run
 }
